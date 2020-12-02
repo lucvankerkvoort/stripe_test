@@ -60,11 +60,7 @@ const CheckoutForm = () => {
   }
 
   // Use a traditional checkout form.
-  return (
-    <button role="link" onClick={handleClick}>
-      Checkout
-    </button>
-  );
+  return "Something went wrong";
 };
 
 export default CheckoutForm;
