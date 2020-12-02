@@ -1,0 +1,28 @@
+{
+  "name": "stripe_test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"nodemon server.js\" \"npm run views\"",
+    "views": "npm run start --prefix views"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucvankerkvoort/stripe_test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lucvankerkvoort/stripe_test/issues"
+  },
+  "homepage": "https://github.com/lucvankerkvoort/stripe_test#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.6",
+    "stripe": "^8.126.0"
+  }
+}
